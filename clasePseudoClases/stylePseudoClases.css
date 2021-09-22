@@ -20,3 +20,7 @@
 .main-nav__item a:hover {
     color: blue;
 }
+
+.main-nav__item a:active{
+    color: red;
+}
