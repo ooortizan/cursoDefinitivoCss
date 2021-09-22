@@ -25,6 +25,10 @@
     color: red;
 }
 
+/* Pseudo clases: Definen el estilo de un estado , like the two above: */
+
 .main-nav__item a::after{
     content:" | ";
 }
+
+/* Pseudo elementos: Define el estilo de una parte especifica de un elemento, en este caso, se agrega algo mas al elemento */
