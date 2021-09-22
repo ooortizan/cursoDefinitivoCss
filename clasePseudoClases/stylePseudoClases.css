@@ -5,3 +5,6 @@
     list-style: none
 }
 
+.main-nav__item{
+    display: inline-block;
+}
