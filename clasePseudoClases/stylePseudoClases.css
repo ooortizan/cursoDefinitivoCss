@@ -10,5 +10,8 @@
 }
 
 .main-nav__item a{
-    
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
 }
