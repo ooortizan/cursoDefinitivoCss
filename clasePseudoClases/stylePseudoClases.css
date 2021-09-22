@@ -24,3 +24,7 @@
 .main-nav__item a:active{
     color: red;
 }
+
+.main-nav__item a::after{
+    content:" | ";
+}
