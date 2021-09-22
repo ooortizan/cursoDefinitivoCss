@@ -13,5 +13,10 @@
     color: white;
     padding: 5px;
     border-radius: 2px;
+    /* se manipulan las formas de las cajas */
     text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: blue;
 }
