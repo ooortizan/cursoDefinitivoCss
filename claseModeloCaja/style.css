@@ -1,7 +1,7 @@
 *{  box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+    /* box sizing solo calcula padding y border para hacerlo encagar NO EL MARGIN */
 }
 
 main{
