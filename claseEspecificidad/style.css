@@ -5,6 +5,8 @@
 }
 h1 {
     font-family: serif;
+    color: purple;
+    margin-bottom: 10px;
 }
 
 #page-title{
@@ -16,4 +18,14 @@ h1 {
     font-size: 18px;
     font-family: monospace;
     /* las classes se llaman con un punto.  */
+}
+
+#main-nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#main-nav li{       
+    display: inline-block;
 }
