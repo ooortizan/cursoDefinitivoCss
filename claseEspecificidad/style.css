@@ -9,28 +9,23 @@ h1 {
     margin-bottom: 10px;
 }
 
-#page-title{
-    font-family: Arial, Helvetica, sans-serif;
-    /* los id se llaman con asterisco */
-}
-
 .title{
     font-size: 18px;
     font-family: monospace;
     /* las classes se llaman con un punto.  */
 }
 
-#main-nav{
+.nav{
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0;
 }
 
-#main-nav li{       
+.nav li{       
     display: inline-block;
 }
 
-#main-nav a{
+.nav a{
     color: white;
     background-color: #13a4a4;
     padding: 5px;
@@ -38,6 +33,6 @@ h1 {
     text-decoration: none;
 }
 
-#main-nav .blog{
-    background-color: red!important;
+.nav .blog{
+    background-color: red;
 }
