@@ -1,0 +1,14 @@
+h1 {
+    font-family: serif;
+}
+
+#page-title{
+    font-family: Arial, Helvetica, sans-serif;
+    /* los id se llaman con asterisco */
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+    /* las classes se llaman con un punto.  */
+}
