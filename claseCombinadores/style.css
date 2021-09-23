@@ -1,3 +1,4 @@
 h2 + p {
+    /* aplica color rojo a todas las etiquetas P que esten cerca de una etiqueta H2. (HERMANO ADYACENTE) */
     color: red;
 }
