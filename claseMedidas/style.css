@@ -1,11 +1,13 @@
-main {
-    background-color: red;
-    width: 100%;
-    height: 100%; 
-}
-/* medidas relativas son mejores practicas ya que se ajustan, por ejemplo % */
-p{
-    font-size: 16px;
-    /* tamaño standard */
+/* body{
+    font-size: 20px;
+} */
 
+.text-container{
+    font-size: 1.5em;
+    /* 1 em es igual a 16 px(tamano determinado por el navegador) */
+    /* Em toma el tamaño de fuente del padre directo de la etiqueta */
+}
+
+.text-container div{
+    font-size: 1.5em;
 }
