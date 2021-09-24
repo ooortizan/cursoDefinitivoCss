@@ -1,3 +1,4 @@
-h2 ~ p {
+div > p {
+    /* padre DIRECTA de una etiqueta parrafo o etiqueta parrafo que sea hija DIRECTA de etiqueta div*/
     color: red;
 }
