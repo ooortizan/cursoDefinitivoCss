@@ -1,5 +1,17 @@
+html{
+    font-size: 62.5%;
+    /* al configurar de esta forma el estilo de fuente de html, seteamos los rem de forma de que 1 rem = 10 px 
+    2 rem = 20px
+    3 rem = 30px 
+    and so on  */
+}
+
 p{
-    font-size: 1rem;
+    font-size: 1.6rem;
     /* rem siempre va a tener como referencia el tamano en nuestra etiqueta root es decir en la etiqueta hmtl */
     /* Es decir, un rem siempre va a ser 16px */
+}
+
+main div{
+    font-size: 1.6rem;
 }
