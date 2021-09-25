@@ -7,13 +7,15 @@
 main{
     width: 100vw;
     height: 100vh;
-    /* Max width and Max Height */
     background-color: purple;
 }
 
 section{
     width: 80%;
-    height: 500px;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
     margin: 0 auto;
+    /* agrega un margin para que se centre de izquierda a derecha solamente */
     background-color: red;
 }
