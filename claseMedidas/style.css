@@ -4,20 +4,15 @@
     padding: 0;
 }
 
-html{
-    font-size: 62.5%;
-    /* al configurar de esta forma el estilo de fuente de html, seteamos los rem de forma de que 1 rem = 10 px 
-    2 rem = 20px
-    3 rem = 30px 
-    and so on  */
+main{
+    width: 100vw;
+    height: 100vh;
+    /* Max width and Max Height */
+    background-color: purple;
 }
 
-p{
-    font-size: 1.6rem;
-    /* rem siempre va a tener como referencia el tamano en nuestra etiqueta root es decir en la etiqueta hmtl */
-    /* Es decir, un rem siempre va a ser 16px */
-}
-
-main div{
-    font-size: 1.6rem;
+section{
+    width: 80%;
+    height: 500px;
+    background-color: red;
 }
