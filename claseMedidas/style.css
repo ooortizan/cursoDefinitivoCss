@@ -1,13 +1,5 @@
-/* body{
-    font-size: 20px;
-} */
-
-.text-container{
-    font-size: 1.5em;
-    /* 1 em es igual a 16 px(tamano determinado por el navegador) */
-    /* Em toma el tamaño de fuente del padre directo de la etiqueta */
-}
-
-.text-container div{
-    font-size: 1.5em;
+p{
+    font-size: 1rem;
+    /* rem siempre va a tener como referencia el tamano en nuestra etiqueta root es decir en la etiqueta hmtl */
+    /* Es decir, un rem siempre va a ser 16px */
 }
