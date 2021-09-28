@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "header header"
+                        "sideBar main"
+                        "footer footer";
+  }
+
+.header{
+    grid-area: header;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo{
+    padding-left: 35px;
+}
+
+.nav{
+    text-align: center;
+    list-style: none ;
+}
+
+.nav li{
+
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.788))
+    drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.788))
+    drop-shadow(-1px 1px 0 #000)
+    drop-shadow(1px -1px 0 rgba(0, 0, 0, 0.808));
+    color: yellow;
+}
+
+
+aside{
+    grid-area: sideBar;
+    height: 82vh;
+    width: 20vw;
+    border-bottom: 5px solid black;
+    }
+
+.partners{
+    font-style: normal;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.788))
+    drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.788))
+    drop-shadow(-1px 1px 0 #000)
+    drop-shadow(1px -1px 0 rgba(0, 0, 0, 0.808));
+    color: white;
+    text-align: center;
+    font-size: 2.1rem;
+    background-color: black;
+}
+
+aside .sideBarPartnerOne{  
+    height: 20vh;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+aside .sideBarPartnerTwo{ 
+    height: 20vh;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+}
+
+.todoroki{
+    padding-top: 350px;
+}
+
+.redRiot{
+    padding-bottom: -120px; 
+    padding-top: 90px;
+}
+
+.kaminari{              
+    padding-top: 300px;
+}
+
+main{
+    display: flex;
+    grid-area: main;
+    height: 82vh;
+    width: 80vw;
+}
+
+.deku{
+    height: 82vh;
+    border: 5px solid black;
+    display: inline-flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 40vw;
+}
+
+.deku .dekuOne{
+    display: block;
+    margin: auto;
+}
+
+.bakugo{
+    height: 82vh;
+    border: 5px solid black;
+    display: inline-flex;
+    align-items: center;
+    background-color: gold;
+    width: 40vw;
+}
+
+.bakugoOne{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: crimson;
+    grid-area: footer;
+    height: 8vh;
+    width: 100vw;
+}
+
+.plus{
+    align-items: center;
+    display: block;
+}
+
+.plusUltra{
+    display: block;
+    margin: auto;
+    width: 10vw;
+    height: 8vh;
+}
+
