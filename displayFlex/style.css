@@ -15,8 +15,8 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    align-items: stretch;
-    incrementa la altura del contenido al 100 porciento del contenedor padre
+    align-items: baseline;
+    /* hace que tome el eespacio de su contenido solamente */
     height: 50vh;
 }
 .box{
