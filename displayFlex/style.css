@@ -15,12 +15,12 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    align-items: flex-end;
+    align-items: stretch;
+    incrementa la altura del contenido al 100 porciento del contenedor padre
     height: 50vh;
 }
 .box{
     width: 10rem;
-    height: 10rem;
 }
 .box1{
     background-color: blue;
