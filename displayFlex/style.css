@@ -31,6 +31,7 @@ body{
 }
 .box3{
     background-color: burlywood;
+    order:4;
 }
 .box4{
     background-color: cadetblue;
