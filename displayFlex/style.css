@@ -15,18 +15,19 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    align-items: baseline;
-    /* hace que tome el eespacio de su contenido solamente */
     height: 50vh;
 }
 .box{
     width: 10rem;
+    height: 10rem;
 }
 .box1{
     background-color: blue;
+    order: 6;
 }
 .box2{
     background-color: blueviolet;
+    order: 5;
 }
 .box3{
     background-color: burlywood;
@@ -39,4 +40,5 @@ body{
 }
 .box6{
     background-color: salmon;
+    
 }
