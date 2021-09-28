@@ -28,6 +28,7 @@ body{
 .box2{
     background-color: blueviolet;
     flex-grow: 1;
+    /* rellena el espacio que faltaba para completar el 100% del width, si se hace mas pequeno el navegador se ajusta */
 }
 .box3{
     background-color: burlywood;
