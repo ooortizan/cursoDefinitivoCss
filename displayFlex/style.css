@@ -16,7 +16,8 @@ body{
     border: 0.3rem solid black;
     display: flex;
     /* flex hace que sus hijos tomen una posicion flexible uno en frente de otro */
-    flex-direction: column;
+    flex-direction: row-reverse;
+    /* acomoda sus hijos hacia abajo */
 }
 .box{
     width: 10rem;
